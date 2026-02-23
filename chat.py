@@ -25,7 +25,6 @@ def gera_chave():
    chave = ''.join(random.choice(caracteres) for _ in range (16)) 
    return chave
 
-
 def digitar(resposta, delay=0.02):
     for char in resposta:
         sys.stdout.write(char)
